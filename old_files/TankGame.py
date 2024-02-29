@@ -3,7 +3,7 @@ from re import L
 import matplotlib.pyplot as plt
 import numpy as np
 from tkinter import *
-import ground
+import old_files.ground as ground
 
 
 class World():
@@ -53,7 +53,7 @@ class Particle():
 
         self.xpos += timestep * self.xvel
 
-        self.ypos += timestep * self.yvelv
+        self.ypos += timestep * self.yvel
         self.yvel += timestep * g
 
 
