@@ -2,6 +2,14 @@ import pygame
 from functions import *
 import time
 
+# A TANK GAME
+# -----------
+# Inspired by a mini game on my parents PC, I decided trying to implement a similar
+# game myself. It should not be too hard with my current skill set.
+# I decided to use the pygame library after initial attempt with tkinter did not
+# seem to go anywhere.
+
+
 pygame.init()
 
 width_px = 800
